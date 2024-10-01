@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', serif;
+}
+body {
+
+    background-color: black;
+    background-repeat: no-repeat;
+
+    font-size: 130%;
+}
+main {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: stretch;
+    justify-content: space-between;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+main div {
+    background-color: #000000aa;
+    padding: 0;
+    color: #ffffffee;
+    text-align: center;
+    position: relative;
+    padding: 0 10px;
+}
+img {
+    width: 70%;
+}
+h2 {
+    border-bottom: 1px solid #ffffffee;
+    padding: 5px;
+}
+input, select {
+    background-color: black;
+    border: 1px solid #4245A7;
+    color: #ffffffee;
+    font-size: 120%;
+    padding: 5px;
+}
+input[type="button"] {
+    margin: 5px;
+    background-color: #4245A7;
+    color: black;
+    padding: 5px 10px;
+}
+#concepte {
+    width: 400px;
+}
+#valor {
+    width: 100px;
+}
+table {
+    width: 100%;
+    border: 1px solid #00000066;
+    border-collapse: collapse;
+}
+th {
+    background-color: #4245A7;
+    color:black;
+}
+th, td {
+    border: 1px solid #00000066;
+    padding: 5px;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+table tr td:first-child() {
+    text-align: left;
+}
+h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #4245A7;
+    padding: 10px 0;
+    color: black;
+}

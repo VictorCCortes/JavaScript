@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+
+body {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 100px;
+    left: 0;
+    background-image: url("images/logo.png");
+    font-size: 200%;
+}
+#game {
+    width: 100%;
+    text-align: center;
+}
+.image {
+    width: 600px;
+    height: 337px;
+    border: 3px solid black;
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+    display:inline-block
+}
+#before {
+    background-image: url(images/image01.jpg);
+}
+#after {
+    background-image: url(images/image02.jpg);  
+}
+.difference {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.difference.found {
+    background-image: url(images/close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#d1 {
+    left: 490px;
+    top: 172px;
+}
+#d2 {
+    left: 544px;
+    top: 267px;
+}
+#d3 {
+    left: 112px;
+    top: 79px;
+}
+#d4 {
+    left: 63px;
+    top: 249px;
+}
+#d5 {
+    left: 259px;
+    top: 62px;
+}
+#d6 {
+    left: 580px;
+    top: 0px;
+}
+#d7 {
+    left: 527px;
+    top: 181px;
+}

@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+ body {
+     background-image: url(images/round.png);
+     font-family: "Fredoka One", sans-serif;
+     text-align: center;
+     color: #E30E0A;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+ }
+
+ h1 {
+     font-size: 70px;
+     margin: 15px;
+     font-weight: normal;
+ }
+
+ h2 {
+     font-size: 40px;
+     margin: 15px;
+     font-weight: normal;
+ }
+
+ #game {
+     overflow: auto;
+     width: 960px;
+     margin: 0 auto;
+ }
+
+ #game > div {
+     background-image: url(images/cardback.jpg);
+     height: 150px;
+     width: 150px;
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+     border-radius: 5px;
+     float: left;
+     margin: 5px;
+     background-size: 20px;
+     cursor: pointer;
+ }
+
+ #game > div.turn {
+     background-color: white;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 80px;
+ }
+
+ #game > div.turn.c1 {
+     background-image: url(images/animals/a01.svg);
+ }
+
+ #game > div.turn.c2 {
+     background-image: url(images/animals/a02.svg);
+ }
+
+ #game > div.turn.c3 {
+     background-image: url(images/animals/a03.svg);
+ }
+
+ #game > div.turn.c4 {
+     background-image: url(images/animals/a04.svg);
+ }
+
+ #game > div.turn.c5 {
+     background-image: url(images/animals/a05.svg);
+ }
+
+ #game > div.turn.c6 {
+     background-image: url(images/animals/a06.svg);
+ }
+
+ #game > div.turn.c7 {
+     background-image: url(images/animals/a07.svg);
+ }
+
+ #game > div.turn.c8 {
+     background-image: url(images/animals/a08.svg);
+ }
+
+ #game > div.turn.c9 {
+     background-image: url(images/animals/a09.svg);
+ }
+
+ #game > div.turn.c10 {
+     background-image: url(images/animals/a10.svg);
+ }
+
+ #game > div.turn.c11 {
+     background-image: url(images/animals/a11.svg);
+ }
+
+ #game > div.turn.c12 {
+     background-image: url(images/animals/a12.svg);
+ }
